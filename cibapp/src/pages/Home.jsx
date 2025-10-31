@@ -28,6 +28,7 @@ import ico10 from "../assets/icon10.svg";
 import ico11 from "../assets/icon11.svg";
 
 import ico12 from "../assets/icon12.svg";
+import Footer from '../components/layout/Footer';
 
 
 
@@ -258,7 +259,7 @@ help you get the service you need."/>
 
             </div>
         </div>
-       
+       <Footer/>
         </>
     );
 }
