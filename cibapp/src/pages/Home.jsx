@@ -9,6 +9,10 @@ import Card from '../components/common/Card';
 import icon1 from "../assets/icon1.svg";
 import icon2 from "../assets/icon2.svg";
 import icon3 from "../assets/icon3.svg";
+import Button from '../components/common/Button';
+import CenterCard from '../components/common/CenterCard';
+import cardimage1 from "../assets/cardimg1.svg";
+
 
 
  
@@ -43,7 +47,25 @@ overdraft"/>
             </div>
         </div>
         
-        
+        <div className='section1 section2height'>
+             <div className='forpg2'>
+
+<SectionTitle sectiontitlename="Learning Center"/>
+<p className='subtitle2'>Learn more about banking and your finances</p>             </div>
+             <div className='forcards'>
+                <CenterCard 
+                cardimage={cardimage1}
+                cardtitlename="Buying and making a home"
+                cardtitledes="Buying a home can be an emotional process, 
+but its important to approach it 
+logically"
+cardbuttonname="Read more"
+                />
+             </div>
+             <Button buttonName="View more"/>
+
+
+        </div>
         
         
         

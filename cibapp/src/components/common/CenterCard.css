@@ -1,0 +1,56 @@
+.learnCard{
+    width: 349.99px;
+height: 205px;
+    height: 399px;background: #FFF;
+display: flex;
+flex-direction: column;
+border-radius: 6px;
+background: #FFF;
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
+
+}
+.cardtitle{
+    color: #1858A8;
+font-family: Inter;
+font-size: 20.8px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 125% */
+margin: 0;
+}
+.carddes{
+    color: #333;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14.4px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 166.667% */
+}
+.readmorediv{
+    display: flex;
+background: #FAFAFA;
+padding: 9.5px 255.99px 10.5px 20px;
+    height: 40px;
+    align-items: center;
+}
+.readmoretext{
+    color: #333;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14.4px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 166.667% */
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: auto;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+.fortitlewdes{
+    display: flex;
+    flex-direction: column;
+        padding: 20px;
+
+}
