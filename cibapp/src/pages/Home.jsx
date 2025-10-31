@@ -17,6 +17,13 @@ import cardimage3 from "../assets/cardimg3.svg";
 import NewsCard from '../components/common/NewsCard';
 import newsimg from "../assets/newsimg.svg";
 import cibimg from "../assets/cibimg.svg";
+import SustainableCard from '../components/common/SustainableCard';
+import ico from "../assets/icon4.svg";
+import ico2 from "../assets/icon5.svg";
+import ico3 from "../assets/icon6.svg";
+
+
+
 
 
 
@@ -152,7 +159,34 @@ valued at EGP 3.4 billion."
             </div>
 
         </div>
-        
+
+          <div className='section1 sustheight'>
+            <div className='forpg2'>
+
+<Subtitle subtitleName="Sustainable finance" />
+<SectionTitle sectiontitlename="Sustainable finance
+ Sustainability is an integral part of the way we 
+work"/>
+            </div>
+            <div className='forcards2'>
+              <SustainableCard 
+              iconimages={ico}
+              icontitle="S&P/EGX ESG Index"
+              />
+              <SustainableCard 
+              iconimages={ico2}
+              icontitle="Bloomberg Gender Equality 
+Index"
+              />
+              <SustainableCard 
+              iconimages={ico3}
+              icontitle="FTSE4Good Index"
+              />
+            </div>
+                                             <Button buttonName="Learn More"/>
+
+        </div>
+       
         </>
     );
 }
