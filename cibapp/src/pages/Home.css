@@ -129,8 +129,11 @@ margin: 0;
     align-items: center;
 }
 .sustheight {
-  
+  /* background: #FAFAFA; */
     height: 70vh;
   
     gap: 60px;
+}
+.whitebg{
+    background: white;
 }

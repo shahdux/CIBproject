@@ -21,6 +21,12 @@ import SustainableCard from '../components/common/SustainableCard';
 import ico from "../assets/icon4.svg";
 import ico2 from "../assets/icon5.svg";
 import ico3 from "../assets/icon6.svg";
+import ico4 from "../assets/icon7.svg";
+import ico5 from "../assets/icon8.svg";
+import ico6 from "../assets/icon9.svg";
+
+
+
 
 
 
@@ -184,6 +190,37 @@ Index"
               />
             </div>
                                              <Button buttonName="Learn More"/>
+
+        </div>
+
+        <div className='section1 sustheight whitebg'>
+            <div className='forpg2'>
+
+<Subtitle subtitleName="AWARDS" />
+<SectionTitle sectiontitlename="CIB's integrity and quality are recognized 
+internationally"/>
+            </div>
+            <div className='forcards2'>
+              <SustainableCard 
+              iconimages={ico4}
+              icontitle="Best Private Bank in Egypt"
+              iconDes="Global Finance - 2023"
+              />
+              <SustainableCard 
+              iconimages={ico5}
+              icontitle="Best Mergers & Acquisitions 
+Deal in MENA"
+              iconDes="EMEA Finance - 2023"
+
+              />
+              <SustainableCard 
+              iconimages={ico6}
+              icontitle="Best Bank in Egypt"
+                            iconDes="Euromoney - 2023"
+
+              />
+            </div>
+                                             <Button buttonName="See all our awards"/>
 
         </div>
        
