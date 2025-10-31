@@ -5,6 +5,10 @@
 gap: 30px;
     width: 890px;
         padding: 20px 0px;
+        transition: 0.5s ease;
+            padding: 20px 20px;
+    /* border: 274px; */
+    border-radius: 4px;
 
 }
 .fornewspg{
@@ -40,4 +44,10 @@ font-size: 14.4px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 166.667% */
+}
+.newsCard:hover{
+box-shadow: 0 4px 22px 0 rgba(54, 89, 160, 0.30);
+
+
+
 }

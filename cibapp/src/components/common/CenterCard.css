@@ -7,6 +7,7 @@ flex-direction: column;
 border-radius: 6px;
 background: #FFF;
     height: 426px;
+    transition: 0.5s ease;
 box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
 
 }
@@ -54,5 +55,11 @@ text-underline-position: from-font;
     flex-direction: column;
         padding: 20px;
         height: 127px;
+
+}
+.learnCard:hover{
+box-shadow: 0 1px 21px 2px rgba(198, 126, 0, 0.20);
+
+
 
 }

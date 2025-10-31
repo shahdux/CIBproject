@@ -8,6 +8,7 @@
     align-items: center;
     padding: 24px 25px;
           width: 138px;
+          transition: 0.5s ease;
 }
 .buttonName{
     color: #FFF;
@@ -16,4 +17,7 @@ font-size: 14.9px;
 font-style: normal;
 font-weight: 600;
 line-height: 14px; /* 93.96% */
+}
+.button:hover{
+background: #F58420;
 }

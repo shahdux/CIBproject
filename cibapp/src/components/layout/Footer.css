@@ -40,6 +40,7 @@
 }
 .footerlinks2{
     display: flex;
+    gap: 20px;
 }
 .lastSection{
     display: flex;
