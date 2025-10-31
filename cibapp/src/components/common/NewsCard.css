@@ -1,7 +1,7 @@
 .newsCard{
     display: flex;
     border-top: 1px solid #B8BABC;
-border-bottom: 1px solid #B8BABC;
+/* border-bottom: 1px solid #B8BABC; */
 gap: 30px;
     width: 890px;
         padding: 20px 0px;

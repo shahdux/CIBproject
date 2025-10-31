@@ -16,6 +16,8 @@ import cardimage2 from "../assets/cardimg2.svg";
 import cardimage3 from "../assets/cardimg3.svg";
 import NewsCard from '../components/common/NewsCard';
 import newsimg from "../assets/newsimg.svg";
+import cibimg from "../assets/cibimg.svg";
+
 
 
 
@@ -105,11 +107,51 @@ newsDes="CIB, Egypt's leading and largest private sector bank, has successfully 
 with CI Capital to complete the seventh issuance for Halan Consumer Finance, 
 valued at EGP 3.4 billion."
 />
+<NewsCard 
+newsimage={newsimg}
+newsDate="08/10/2025 - Commercial International Bank (CIB) Has Partnered with CI 
+Capital to Successfully Closes the Seventh Securitization Bond Issuance for 
+Halan Consumer Finance, Worth EGP 3.4 Billion"
+newsTitle="Commercial International Bank (CIB) Has Partnered 
+with CI Capital to Successfully Closes the Seventh 
+Securitization Bond Issuance for Halan Consumer 
+Finance, Worth EGP 3.4 Billion"
+newsDes="CIB, Egypt's leading and largest private sector bank, has successfully partnered 
+with CI Capital to complete the seventh issuance for Halan Consumer Finance, 
+valued at EGP 3.4 billion."
+/>
+<NewsCard 
+newsimage={newsimg}
+newsDate="08/10/2025 - Commercial International Bank (CIB) Has Partnered with CI 
+Capital to Successfully Closes the Seventh Securitization Bond Issuance for 
+Halan Consumer Finance, Worth EGP 3.4 Billion"
+newsTitle="Commercial International Bank (CIB) Has Partnered 
+with CI Capital to Successfully Closes the Seventh 
+Securitization Bond Issuance for Halan Consumer 
+Finance, Worth EGP 3.4 Billion"
+newsDes="CIB, Egypt's leading and largest private sector bank, has successfully partnered 
+with CI Capital to complete the seventh issuance for Halan Consumer Finance, 
+valued at EGP 3.4 billion."
+/>
             </div>
              <Button buttonName="View All News"/>
         </div>
         
-        
+        <div className='section5'>
+            <div className='imageCont'>
+                <img className='pa' src={cibimg} alt="" />
+                <div className='cibdiv'>
+                    <div className='cibtexts'>
+                        <p className='cibtitle'>CIB on an international scale</p>
+                        <p className='cibdes'>Learn more about CIB's presence outside of Egypt</p>
+
+                    </div>
+                                 <Button buttonName="Learn More"/>
+
+                </div>
+            </div>
+
+        </div>
         
         </>
     );
