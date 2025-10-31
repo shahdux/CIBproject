@@ -58,10 +58,23 @@ box-shadow: 0 4px 22px 0 rgba(54, 89, 160, 0.30);
     justify-content: center;
             align-items: center;
                 width: 370px;
+
 }
 .fornewspg{
         width: 350px;
 }
 
 
+}
+
+
+
+    @media only screen and (min-width: 600px) and (max-width: 900px) {
+  .newsCard {
+        width: 510px;
+        flex-wrap: wrap;
+
+
+;
+}
 }
