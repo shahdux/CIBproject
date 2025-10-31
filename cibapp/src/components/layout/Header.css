@@ -10,6 +10,7 @@ flex-direction: column;
 }
 .heroTitle{
     color: #FFF;
+    
    
 font-family: Arial, Helvetica, sans-serif;
 font-size: 37.3px;
@@ -17,6 +18,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 48px; /* 128.686% */
 margin: 0;
+margin-bottom: 12px;
 }
 .heroSection{
     display: flex;
@@ -35,5 +37,5 @@ margin: 0;
    margin-left: 120px;
    display: flex;
    flex-direction: column;
-   gap: 20px;
+   gap: 0px;
 }

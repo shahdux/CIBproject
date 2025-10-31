@@ -1,0 +1,19 @@
+.button{
+       display: inline-flex
+;
+    height: 7px;
+    border-radius: 6px;
+    background: #1858A8;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 25px;
+        width: 108px;
+}
+.buttonName{
+    color: #FFF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14.9px;
+font-style: normal;
+font-weight: 600;
+line-height: 14px; /* 93.96% */
+}
