@@ -6,6 +6,12 @@ import MainMenuTab from '../components/common/MainMenuTab';
 import Subtitle from '../components/common/Subtitle';
 import SectionTitle from '../components/common/SectionTitle';
 import Card from '../components/common/Card';
+import icon1 from "../assets/icon1.svg";
+import icon2 from "../assets/icon2.svg";
+import icon3 from "../assets/icon3.svg";
+
+
+ 
 
 const Home = () => {
     return (  
@@ -25,7 +31,14 @@ const Home = () => {
 <SectionTitle sectiontitlename=" Apply online now for cards and loans with ease!"/>
             </div>
             <div className='forcards'>
-                <Card/>
+                <Card iconimg={icon1}
+                 cardtextname="Apply for a New 
+Account"/>
+   <Card iconimg={icon2}
+                 cardtextname="Apply for a Card"/>
+                  <Card iconimg={icon3}
+                 cardtextname="Apply for a loan or 
+overdraft"/>
 
             </div>
         </div>

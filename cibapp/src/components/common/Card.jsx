@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import "./Card.css"
-import icon1 from "../../assets/icon1.svg"
-const Card = () => {
+const Card = (props) => {
     return ( 
         <div className='card1'>
-            <img src={icon1} alt="" />
-            <p className='cardtext'>Apply for a New 
-Account</p>
+            <img src={props.iconimg} alt="" />
+            <p className='cardtext'>{props.cardtextname}</p>
         </div>
      );
 }
