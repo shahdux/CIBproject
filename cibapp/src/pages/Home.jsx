@@ -5,6 +5,7 @@ import Header from '../components/layout/Header';
 import MainMenuTab from '../components/common/MainMenuTab';
 import Subtitle from '../components/common/Subtitle';
 import SectionTitle from '../components/common/SectionTitle';
+import Card from '../components/common/Card';
 
 const Home = () => {
     return (  
@@ -24,6 +25,7 @@ const Home = () => {
 <SectionTitle sectiontitlename=" Apply online now for cards and loans with ease!"/>
             </div>
             <div className='forcards'>
+                <Card/>
 
             </div>
         </div>
