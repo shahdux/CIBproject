@@ -1,0 +1,39 @@
+.heroSub{
+      color: #FFF;
+   
+font-family: Arial, Helvetica, sans-serif;
+       width: 242.5px;
+height: 72px;
+margin: 0;
+line-height: normal;
+flex-direction: column;
+}
+.heroTitle{
+    color: #FFF;
+   
+font-family: Arial, Helvetica, sans-serif;
+font-size: 37.3px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 128.686% */
+margin: 0;
+}
+.heroSection{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.imageh{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 105vh;
+   
+}
+.forpg{
+   margin-left: 120px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
