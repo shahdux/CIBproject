@@ -16,6 +16,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 50px;
+height: auto;
+padding: 100px 0px;
 
 }
 .forpg2{
@@ -27,6 +29,8 @@ gap: 50px;
 }
 .forcards{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 .subtitle2{
@@ -39,7 +43,7 @@ line-height: 40px; /* 173.16% */
 margin: 0;
 }
 .section2height{
-    height: 100vh;
+    /* height: 100vh; */
     background: white;
 }
 .newsSection{
@@ -130,13 +134,10 @@ margin: 0;
 }
 .sustheight {
   /* background: #FAFAFA; */
-    height: 70vh;
+    /* height: 70vh; */
   
     gap: 60px;
 }
 .whitebg{
     background: white;
-}
-.careSectionHeight{
-        height: 60vh;
 }
