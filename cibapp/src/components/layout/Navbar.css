@@ -8,6 +8,7 @@ align-items: center;
 gap: 53px;
 background: #032D62;
 position: fixed;
+   
 z-index: 100;
 
 }

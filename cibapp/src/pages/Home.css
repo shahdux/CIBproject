@@ -124,6 +124,7 @@ margin: 0;
 }
 .pa{
     position: absolute;
+        width: 100%;
 }
 .forcards2 {
     display: flex
@@ -131,6 +132,7 @@ margin: 0;
     gap: 100px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .sustheight {
   /* background: #FAFAFA; */
@@ -140,4 +142,22 @@ margin: 0;
 }
 .whitebg{
     background: white;
+}
+@media only screen and (max-width: 600px) {
+
+.subtitle2{
+    text-align: center;
+}
+.heroSection {
+    
+    height: 46vh
+
+;
+}
+.cibdiv{
+        height: 257px;
+        margin-left: 0;
+            padding-left: 50px;
+}
+
 }

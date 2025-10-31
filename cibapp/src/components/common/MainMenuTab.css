@@ -18,3 +18,10 @@ gap: 30px;
 align-items: center;
 margin-left: 120px;
 }
+@media only screen and (max-width: 600px) {
+
+    .formargin {
+     
+        margin-left: 20px;
+    }
+}

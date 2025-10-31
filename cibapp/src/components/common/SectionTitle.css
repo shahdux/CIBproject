@@ -7,6 +7,7 @@ font-weight: 700;
 line-height: 48px; /* 128.686% */
 margin: 0;
 transition: 0.5s ease;
+text-align: center;
 }
 .sectiontitle:hover{
     color: #1858A8;

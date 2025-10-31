@@ -9,7 +9,8 @@ gap: 30px;
             padding: 20px 20px;
     /* border: 274px; */
     border-radius: 4px;
-
+    justify-content: center;
+    /* flex-wrap: wrap; */
 }
 .fornewspg{
     display: flex;
@@ -48,6 +49,19 @@ line-height: 24px; /* 166.667% */
 .newsCard:hover{
 box-shadow: 0 4px 22px 0 rgba(54, 89, 160, 0.30);
 
+
+
+}
+@media only screen and (max-width: 600px) {
+.newsCard{
+    flex-direction: column;
+    justify-content: center;
+            align-items: center;
+                width: 370px;
+}
+.fornewspg{
+        width: 350px;
+}
 
 
 }
