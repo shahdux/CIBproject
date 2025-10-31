@@ -4,6 +4,10 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    align-items: center;
+    border-radius: 14px;
+    transition: 0.5s ease;
 }
 .iconTitle{
     color: #333;
@@ -12,6 +16,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 28.08px; /* 161.379% */
+transition: 0.5s ease;
 }
 .iconDes{
     color: #333;
@@ -21,4 +26,11 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 166.667% */
 margin: 0;
+
+}
+.iconwdes:hover{
+box-shadow: 0 4px 22px 0 rgba(54, 89, 160, 0.30);
+
+
+
 }

@@ -8,5 +8,10 @@ line-height: 22px; /* 180.328% */
 letter-spacing: 5px;
 text-transform: uppercase;
 margin: 0;
+transition: ease 0.5s;
 
+
+}
+.subTitle:hover{
+color: #F58420;
 }
