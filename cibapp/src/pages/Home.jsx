@@ -14,6 +14,8 @@ import CenterCard from '../components/common/CenterCard';
 import cardimage1 from "../assets/cardimg1.svg";
 import cardimage2 from "../assets/cardimg2.svg";
 import cardimage3 from "../assets/cardimg3.svg";
+import NewsCard from '../components/common/NewsCard';
+import newsimg from "../assets/newsimg.svg";
 
 
 
@@ -86,7 +88,26 @@ cardbuttonname="Read more"
         </div>
         
         
-        
+        <div className='newsSection'>
+            <SectionTitle sectiontitlename="News"/>
+
+            <div className='fornewsCards'>
+<NewsCard 
+newsimage={newsimg}
+newsDate="08/10/2025 - Commercial International Bank (CIB) Has Partnered with CI 
+Capital to Successfully Closes the Seventh Securitization Bond Issuance for 
+Halan Consumer Finance, Worth EGP 3.4 Billion"
+newsTitle="Commercial International Bank (CIB) Has Partnered 
+with CI Capital to Successfully Closes the Seventh 
+Securitization Bond Issuance for Halan Consumer 
+Finance, Worth EGP 3.4 Billion"
+newsDes="CIB, Egypt's leading and largest private sector bank, has successfully partnered 
+with CI Capital to complete the seventh issuance for Halan Consumer Finance, 
+valued at EGP 3.4 billion."
+/>
+            </div>
+             <Button buttonName="View All News"/>
+        </div>
         
         
         

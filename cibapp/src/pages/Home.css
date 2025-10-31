@@ -41,3 +41,19 @@ margin: 0;
 .section2height{
     height: 100vh;
 }
+.newsSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    background: #FAFAFA;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.fornewsCards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
