@@ -24,6 +24,12 @@ import ico3 from "../assets/icon6.svg";
 import ico4 from "../assets/icon7.svg";
 import ico5 from "../assets/icon8.svg";
 import ico6 from "../assets/icon9.svg";
+import ico10 from "../assets/icon10.svg";
+// import ico11 from "../assets/icon11.svg";
+
+// import ico11 from "../assets/icon12.svg";
+
+
 
 
 
@@ -222,6 +228,24 @@ Deal in MENA"
             </div>
                                              <Button buttonName="See all our awards"/>
 
+        </div>
+         <div className='section1'>
+            <div className='forpg2'>
+
+<Subtitle subtitleName="We care" />
+<SectionTitle sectiontitlename="  Our dedicated team is committed to meeting your needs"/>
+            </div>
+            <div className='forcards'>
+                <Card iconimg={ico10}
+                 cardtextname="Online"
+                 cardtextdes="Chat with 'Zaki' our digital 
+assistant to guide you through our 
+products and services, or reach 
+out on social media."/>
+   
+                
+
+            </div>
         </div>
        
         </>
