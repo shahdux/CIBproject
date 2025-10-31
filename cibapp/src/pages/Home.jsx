@@ -25,9 +25,9 @@ import ico4 from "../assets/icon7.svg";
 import ico5 from "../assets/icon8.svg";
 import ico6 from "../assets/icon9.svg";
 import ico10 from "../assets/icon10.svg";
-// import ico11 from "../assets/icon11.svg";
+import ico11 from "../assets/icon11.svg";
 
-// import ico11 from "../assets/icon12.svg";
+import ico12 from "../assets/icon12.svg";
 
 
 
@@ -229,7 +229,7 @@ Deal in MENA"
                                              <Button buttonName="See all our awards"/>
 
         </div>
-         <div className='section1'>
+         <div className='section1 careSectionHeight'>
             <div className='forpg2'>
 
 <Subtitle subtitleName="We care" />
@@ -242,6 +242,17 @@ Deal in MENA"
 assistant to guide you through our 
 products and services, or reach 
 out on social media."/>
+ <Card iconimg={ico11}
+                 cardtextname="On the phone"
+                 cardtextdes="For support, including 
+emergencies such as cards 
+closure or immediate critical 
+feedback."/>
+<Card iconimg={ico12}
+                 cardtextname="In branch"
+                 cardtextdes="Our trained team of tellers and 
+relationship managers are here to 
+help you get the service you need."/>
    
                 
 

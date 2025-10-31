@@ -137,3 +137,6 @@ margin: 0;
 .whitebg{
     background: white;
 }
+.careSectionHeight{
+        height: 60vh;
+}
