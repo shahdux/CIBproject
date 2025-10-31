@@ -12,6 +12,9 @@ import icon3 from "../assets/icon3.svg";
 import Button from '../components/common/Button';
 import CenterCard from '../components/common/CenterCard';
 import cardimage1 from "../assets/cardimg1.svg";
+import cardimage2 from "../assets/cardimg2.svg";
+import cardimage3 from "../assets/cardimg3.svg";
+
 
 
 
@@ -59,6 +62,21 @@ overdraft"/>
                 cardtitledes="Buying a home can be an emotional process, 
 but its important to approach it 
 logically"
+cardbuttonname="Read more"
+                />
+                 <CenterCard 
+                cardimage={cardimage2}
+                cardtitlename="Traveling on a budget"
+                cardtitledes="So for all of you travelers, take a vacation 
+without spending a fortune with these helpful 
+tips and tricks:"
+cardbuttonname="Read more"
+                />
+                 <CenterCard 
+                cardimage={cardimage3}
+                cardtitlename="University life tips"
+                cardtitledes="The impact of a good education can be 
+transformative."
 cardbuttonname="Read more"
                 />
              </div>
